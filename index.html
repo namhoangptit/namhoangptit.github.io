@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html" />
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css">
+	<style>
+html { 
+  background: url(PTIT.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  float : right;
+ 
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+</style>
+</head>
+    <body>
+        <div id="div-taskbar">
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="news.html">News</a></li>
+				<li style="border: none;"><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+        <br/>
+		     <form>
+                 <input type="text" name="search" placeholder="Search..">
+             </form>				 
+    </body>
+</html>
